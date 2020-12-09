@@ -15,23 +15,33 @@
 <body class="page">
     <!--Шапка сайта-->
     <header class="page-header">
-        <div class="container main">
-            <nav class="com">
-                <a href="./" class="logo">Web<span>Studio</span></a>
-                <ul class="site-nav com">
-                    <li class="item"><a href="./index.html" class="link current">Студия</a> </li>
-                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a> </li>
-                    <li class="item"><a href="" class="link">Контакты</a> </li>
-                </ul>
-            </nav>
-            <address class="address">
-                <ul class="auth">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="auth-mail">info@devstudio.com</a></li>
-                    <li class="item"><a href="tel:+380961111111" class="auth-tel">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
+        <div class="container main"> 
+             <nav class="com">
+                 <a href="./" class="logo">Web<span>Studio</span></a>
+                 <ul class="site-nav com">
+                     <li class="item"><a href="./index.html" class="link current">Студия</a> </li>
+                     <li class="item"><a href="./portfolio.html" class="link">Портфолио</a> </li>
+                     <li class="item"><a href="" class="link">Контакты</a> </li>
+                 </ul>
+             </nav>
+             <address class="address">
+                 <ul class="auth">
+                     <li class="item mail">                         
+                         <svg class="kliyenty-icon" width="16" height="12">  
+                                 <use href=".//image/sprite.svg#icon-envelope"></use>
+                         </svg>                                                                                        
+                         <a href="mailto:info@devstudio.com" class="auth-mail">info@devstudio.com</a>
+                     </li>
+                     <li class="item tel">
+                         <svg class="kliyenty-icon" width="10" height="16">
+                             <use href=".//image/sprite.svg#icon-smartphone"></use>
+                         </svg> 
+                         <a href="tel:+380961111111" class="auth-tel">+38 096 111 11 11</a>
+                     </li>
+                 </ul>
+             </address>
         </div>
-    </header>
+     </header>
     <main>       
             <section class="section">
                 <div class="container">
@@ -123,16 +133,55 @@
     </main>
     <footer class="navi">
         <!-- <h2>WebStudio</h2> -->
-        <div class="container">
-            <a href="./" class="logo-footer">Web<span>Studio</span></a>
+        <div class="container foot">
+            <div>
+                <a href="./" class="logo-footer">Web<span>Studio</span></a>
             <address>
                 <ul class="cell">
                     <li class="direction"><a href="#" class="cell-address">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="mail"><a href="mailto:info@example.com" class="cell-mail">info@example.com</a></li>
-                    <li class="tel"><a href="tel:+380991111111" class="cell-tel">+38 099 111 11 11</a></li>
+                    <li class="tel-mail"><a href="mailto:info@example.com" class="cell-mail">info@example.com</a></li>
+                    <li class="tel-mail"><a href="tel:+380991111111" class="cell-tel">+38 099 111 11 11</a></li>
                 </ul>
             </address>
+            </div>
+            <div class="social">
+                <p class="social-text">присоединяйтесь</p>
+                <ul class="social-icon">
+                    <li class="networks">  
+                        <button class="button-icon">
+                            <svg class="icon" width="20" height="20">
+                                <use href=".//image/sprite.svg#icon-instagram-2"></use>                                                                    
+                            </svg>
+                        </button>               
+                    </li>
+                    <li class="networks">    
+                        <button class="button-icon">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./image/sprite.svg#icon-twitter"></use>                                                                    
+                            </svg>
+                        </button>                   
+                        
+                    </li>
+                    <li class="networks">    
+                        <button class="button-icon">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./image/sprite.svg#icon-facebook-1"></use>                                                                    
+                            </svg>
+                        </button>                    
+                        
+                    </li>
+                    <li class="networks">     
+                        <button class="button-icon">
+                            <svg class="icon" width="20" height="20">
+                                <use href="./image/sprite.svg#icon-linkedin-1"></use>                                                                    
+                            </svg>
+                        </button>                
+                    </li>
+                </ul>
+            </div>
+            
         </div>
+        
     </footer>
 </body>    
 </html>
